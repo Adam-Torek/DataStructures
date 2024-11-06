@@ -1,0 +1,5 @@
+add_subdirectory(include)
+
+add_library(DataStructures INTERFACE)
+target_link_libraries(DataStructures INTERFACE Include)
+set_target_properties(DataStructures PROPERTIES LINKER_LANGUAGE CXX)

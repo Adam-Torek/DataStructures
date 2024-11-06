@@ -1,0 +1,18 @@
+{
+"testMate.cpp.debug.configTemplate": {
+  "type": "lldbvsdbg",
+  "linux": { "type": "lldb", "MIMode": "lldb" },
+  "darwin": { "type": "lldb", "MIMode": "lldb" },
+  "win32": { "type": "cppvsdbg" },
+  "program": "${exec}",
+  "args": "${argsArray}",
+  "cwd": "${cwd}",
+  "env": "${envObj}",
+  "environment": "${envObjArray}",
+  "sourceFileMap": "${sourceFileMapObj}",
+},
+"lldb.displayFormat": "auto",
+"lldb.showDisassembly": "never",
+"lldb.dereferencePointers": true,
+"lldb.consoleMode": "commands"
+}
